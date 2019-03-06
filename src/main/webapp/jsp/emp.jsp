@@ -27,6 +27,7 @@
 
     function tijiao(){
         if(document.getElementById("id").value==""){
+            ///aaaaaa
             location.href="insert?ename="+document.getElementById("ename").value+"&deptid="+document.getElementById("deptid").value;
         }else{
             location.href="update?ename="+document.getElementById("ename").value+"&deptid="+document.getElementById("deptid").value+"&id="+document.getElementById("id").value;
